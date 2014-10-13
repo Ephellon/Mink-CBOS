@@ -1,0 +1,45 @@
+REFERENCES OF RESOURCES:
+
+*Note: use these if you are in the ' APP/com.company.name 'directory, else if in the ' APP/com.company.name/mof ' directory, add '  ../  ' to the begining:
+
+DEFAULT STYLING:
+
+<link rel="stylesheet" type="text/css" href="../res/mink.css">
+<script type="text/javascript" src="../res/app.js"></sctipt>
+
+
+BLACK ICONS:
+
+<link rel="stylesheet" type="text/css" href="../res/icons-black.css">
+
+
+WHITE ICONS:
+
+<link rel="stylesheet" type="text/css" href="../res/icons-white.css">
+
+
+MINK JS FUNCTIONS:
+
+<script type="text/javascript" src="../res/mink.js"></sctipt>
+
+
+JQUERY:
+
+<script type="text/javascript" src="../res/jquery.js"></sctipt>
+
+TOAST MESSAGE:
+
+<div id="Toast-Message"></div>
+
+*Note: Toast() can only be used by apps
+
+
+NOTIFICATION:
+
+*Note: can only be displayed by Mink
+
+LOCKS:
+
+<script type="text/css" src="../res/pattern.js"></sctipt>
+<link rel="stylesheet" type="text/css" href="../res/pattern.css">
+
