@@ -15,6 +15,11 @@ Developers, scroll past -Usage- § IV
 
 -Guidelines/Instructions:
 
+#To Use - in your _app.html_ file#
+<br />`<link rel="stylesheet" type="text/css" href="app.css">`
+<br />`<script type="text/javascript" src="../res/jquery.js"></script>`
+<br />`<script type="text/javascript" src="../res/mink.js"></script>`
+
 -Beginning-
 
 I. You must have a browser that supports HTML5, JS, and CSS3.
