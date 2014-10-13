@@ -1,0 +1,5 @@
+HYPER TEXT MARKUP LANGUAGE : MINK
+- all HTML5 attributes, properties and elements
+
+-attributes
+	-icon : icon of this element
