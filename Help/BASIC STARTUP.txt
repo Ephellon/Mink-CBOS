@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="app.css">
+<script type="text/javascript" src="../res/jquery.js"></script>
+<script type="text/javascript" src="../res/mink.js"></script>
+</head>
+
+<style type="text/css">
+
+
+
+</style>
+
+<html>
+
+<body>
+
+
+
+<div id="Toast-Message"></div>
+<br /><br />
+<br /><br />
+</body>
+
+<script type="text/javascript">
+
+
+
+</script>
+
+</html>
