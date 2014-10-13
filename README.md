@@ -20,10 +20,14 @@ Developers, scroll past -Usage- § IV
 <br />`<script type="text/javascript" src="../res/jquery.js"></script>`
 <br />`<script type="text/javascript" src="../res/mink.js"></script>`
 
-###To Use - in your _mof/app.html_ file###
+###To Use - in your _mof/app-name.html_ file###
 <br />`<link rel="stylesheet" type="text/css" href="../app.css">`
 <br />`<script type="text/javascript" src="../../res/jquery.js"></script>`
 <br />`<script type="text/javascript" src="../../res/mink.js"></script>`
+
+###To Use - in your _app.css_ file###
+<br />`@import url('../res/mink.css');`
+<br />`@import url('../res/icons-white.css');`
 
 -Beginning-
 
