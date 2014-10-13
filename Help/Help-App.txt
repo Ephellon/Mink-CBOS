@@ -1,0 +1,50 @@
+Help : Building Mink apps
+
+*Note: Feel free to change anything in this project under the SOURCE directory.
+
+********************************
+Needed: 
+-Knowledge of : 
+	-JS
+	-HTML5
+	-CSS3
+
+-Software :
+	-Text editor
+	-HTML5 enabled browser
+	-JS enabled browser
+	-CSS3 enabled browser
+********************************
+Automatic:
+
+I. FULL SCREEN:
+	If screen is scrolled past master button, the master button area (system tray) is overlapped (thus 'hiding' it), as well as the notification area.¹
+
+II. TIME UPDATE:
+	The current time will be notified every 60s, for 5s.¹
+********************************
+
+Step-by-step instructions:
+
+I. Create a sub-directory in APP, and inside of it, a group of files: app.html, app.js, app.css [and if needed, a sub-directory 'mof' to hold extra 'pages' and/or data, i.e. form data, form submission pages, cache pages, etc.]
+
+II. Name the directory com.|company|.|name| (like Android apps)
+
+III. Build your app as app.html
+
+IV. Link your app to the Mink OS:
+	i. In the index.html file, add the following:
+
+<a href="APP/com.company.name/app.tml" app>
+Name*
+</a>
+<br /><br />
+
+-Or, proceed to § ii
+
+	ii. While running the Mink OS, select ' Settings | Apps | Add ' and enter the company and name of the app
+*Note: If you clear browser cookies ALL app data, locations, and references will be deleted if you choose not to do § i
+
+*Note: ¹ is to be updated (either fixing, or creating)
+
+*Note: be sure to include the following in your app.html file if you need the resources: BASIC-STARTUP.txt
