@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--
+Muffin Stack
+Mink Main Menu
+!-->
+<title>Mink - BOS</title>
+
+<head>
+
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,user-scalable=no">
+<link rel="stylesheet" type="text/css" href="APP/res/mink.css">
+<link rel="stylesheet" type="text/css" href="APP/res/icons-white.css">
+<script type="text/javascript" src="APP/res/jquery.js"></script>
+<script type="text/javascript" src="APP/res/mink.js"></script>
+
+</head>
+
+<style type="text/css">
+
+body
+{
+color:#ffffff;
+background-color:#000000;
+height:90%;
+width:95%;
+over-flow:scroll;
+}
+
+#head
+{
+color:#00aced;
+background-color:#000000;
+margin-top:2px;
+width:100%;
+text-align:left;
+font-size:20px;
+position:fixed;
+height:24px;
+}
+
+iframe
+{
+border-style:none;
+overflow:hide;
+margin:0;
+padding:0;
+max-height:90%;
+height:90%;
+max-width:100%;
+width:100%;
+margin-top:20px;
+margin-bottom:10%;
+background-image:url('RGB/mink-white.png');
+background-repeat:no-repeat;
+background-size:cover;
+background-color:#000000;
+}
+
+iframe>button::after
+{
+content:"Your browser does not support Mink";
+}
+
+#master-button
+{
+border-style:solid;
+border-radius:9px;
+border-color:#00aced;
+font-size:0;
+margin-left:45%;
+margin-right:auto;
+}
+
+#system-tray
+{
+text-align:center;
+position:fixed;
+left:0;
+right:0;
+bottom:0;
+width:100%;
+height:10%;
+color:#00aced;
+background-color:#000000;
+}
+</style>
+
+<html lang="en-US">
+
+	<body>
+	
+<div id="head" onmouseover="Notify(Time(),5);"  onclick="k=confirm('Go back home?');if(k==true){window.location=window.location}"> <img icon="mink" /> </div>
+	
+<iframe id="iframe" name="user-screen" src="index.html" sandbox="allow-scripts allow-forms allow-top-navigation" scrolling="yes">
+Sorry, your browser doesn't support Mink, click <a href="index.html">here</a> instead.
+</iframe>
+
+<div id="system-tray">
+	<div id="master-button" icon="scroll-left" onclick="history.back();"></div>
+	<div onclick="Toast();" style="width:100%;height:2px;background-color:#00aced;"></div>
+</div>
+
+	</body>
+	
+	<script type="text/javascript">
+	$(document).ready(function(){
+	
+		url=$("#iframe").attr('src');
+		Notify(((typeof(Storage)!="undefined")?'Mink v6':'Mink encountered a problem with the file system!'));
+		setInterval(function(){Notify(Time(),5)},60000);
+		
+	
+		$("#iframe").attr('src').change(function(){
+		
+			if($("#iframe").attr('src').search('APP')<0)
+			{
+		 		$("#master-button").attr('icon','home');
+				$("#master-button").attr('onclick','history.go(url);');
+			}
+		
+			else
+			{
+				$("#master-button").attr('icon','scroll-left');
+				$("#master-button").attr('onclick','history.back();');
+			}
+		
+		});
+	
+	});
+	</script>
+
+</html>
