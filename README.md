@@ -4,14 +4,22 @@ Mink-CBOS
 HTML5/CSS3/JS OS
 
 Mink - Custom Browser OS:
+
 Developers, scroll past -Usage- § IV
+
 -Author: Ephellon Dantzler
--Contact: 469-202-5129 ; minkcbos@gmail.com
+
+-Contact: minkcbos@gmail.com
+
 -Support: JavaScript, HTML5, CSS3
+
 -Aliases:
 	-JS : Mink : INK
+
 	-HTML5 : Muffin Stack : MINK
+
 	-CSS3 : Rose Garden Basic : RGB
+
 
 -Guidelines/Instructions:
 
