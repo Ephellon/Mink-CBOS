@@ -1,79 +1,84 @@
-Mink-CBOS
-=========
+# Mink-CBOS
+# HTML5/CSS3/JS OS
 
-HTML5/CSS3/JS OS
+### _Mink Custom Browser OS_
 
-Mink - Custom Browser OS:
+> Developers, scroll past __Usage § IV__
 
-Developers, scroll past -Usage- § IV
+- Author:  Ephellon Dantzler
+- Contact: [minkcbos@gmail.com](mailto:minkcbos@gmail.com)
+- Support: JavaScript, HTML5, CSS3
+- Aliases:
+	+ HTML5: Muffin Stack (MINK)
+	+ JS: Mink (INK)
+	+ CSS3: Rose Garden Basic (RGB)
+	
+========
 
--Author: Ephellon Dantzler
+# Guidelines/Instructions:
+## Your `app.html` file must contain:
 
--Contact: minkcbos@gmail.com
+```html
+<link rel="stylesheet" type="text/css" href="app.css"/>
+<script type="text/javascript" src="../res/jquery.js"></script>
+<script type="text/javascript" src="../res/mink.js"></script>
+```
 
--Support: JavaScript, HTML5, CSS3
+## Your `mof/{Application Name}.html` file(s) must contain:
 
--Aliases:
-	-JS : Mink : INK
+```html
+<link rel="stylesheet" type="text/css" href="../app.css"/>
+<script type="text/javascript" src="../../res/jquery.js"></script>
+<script type="text/javascript" src="../../res/mink.js"></script>
+```
 
-	-HTML5 : Muffin Stack : MINK
+## Your `app.css` file must contain:
 
-	-CSS3 : Rose Garden Basic : RGB
+```css
+@import url('../res/mink.css');
+@import url('../res/icons-white.css');
+```
 
+========
 
--Guidelines/Instructions:
+# Beginning
 
-###To Use - in your _app.html_ file###
-<br />`<link rel="stylesheet" type="text/css" href="app.css">`
-<br />`<script type="text/javascript" src="../res/jquery.js"></script>`
-<br />`<script type="text/javascript" src="../res/mink.js"></script>`
+1. You must have a browser that supports HTML5, JS, and CSS3.
+2. When you click on `mink.html`, open the file as a web page (and choose your browser as the default program/application for the action)
 
-###To Use - in your _mof/app-name.html_ file###
-<br />`<link rel="stylesheet" type="text/css" href="../app.css">`
-<br />`<script type="text/javascript" src="../../res/jquery.js"></script>`
-<br />`<script type="text/javascript" src="../../res/mink.js"></script>`
+----
 
-###To Use - in your _app.css_ file###
-<br />`@import url('../res/mink.css');`
-<br />`@import url('../res/icons-white.css');`
+# Startup
 
--Beginning-
+1. Open the `/SOURCE` directory.
+2. Select `mink.html` as a web page.
+3. Use the page as if it were an emulator (phone of its' own).
 
-I. You must have a browser that supports HTML5, JS, and CSS3.
+----
 
-II. When you click on ' mink.html, ' open the file as a web page (and choose your browser as default program/application for the action)
+# Usage
 
--Startup-
+1. Open `mink.html`
+2. Click on an application to execute it.
+3. Press the "Master Button" located at the bottom of the page to return to the previous screen, or exit the app, respectively.
+4. Hold the "Master Button" located at the bottom of the page to close all applications.
 
-I. Open SOURCE directory.
-II. Select mink.html as a web page.
-III. Use the page as if it were an emulator (phone of its' own)
+----
 
--Usage-
+# DEVELOPERS
 
-I. Open mink.html
+- Building apps
+	1. Body of apps: use HTML5
+	2. Behavior of apps: use JS
+	3. Styling apps: use CSS 3
 
-II. Click on an 'app' to execute/run it.
+- Data manipulation
+	1. Saving
+	2. Loading
+	3. Deleting
+	4. Merging/Concating
 
-III. Press the ' Master Button, ' located at the bottom of the page to return to the previous screen, or exit the app, respectively.
-
-IV. Hold the ' Master Button, ' located at the bottom of the page to close all 'apps.'
-
--DEVELOPERS-
-
-I. Building apps.
-	i. Body of apps : use HTML ver. 5
-	ii. Behavior of apps : use JS
-	iii. Styling apps : use CSS ver. 3
-
-II. Data manipulation
-	i. Saving
-	ii. Loading
-	iii. Deleting
-	iv. Merging/Concating
-
-III. Sharing content
-	i. App-App
-	ii. App-Web
-	iii. Web-App
-
+- Sharing content
+	1. App to App
+	2. App to Web
+	3. Web to App
