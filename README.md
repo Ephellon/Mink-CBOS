@@ -1,7 +1,4 @@
-# Mink-CBOS
-# HTML5/CSS3/JS OS
-
-### _Mink Custom Browser OS_
+# Mink CBOS (_Custom Browser Operating System_): HTML5/CSS3/JS OS
 
 > Developers, scroll past __Usage § IV__
 
