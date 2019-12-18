@@ -10,7 +10,7 @@
 	+ JS: Mink (INK)
 	+ CSS3: Rose Garden Basic (RGB)
 	
-========
+----
 
 # Guidelines/Instructions:
 ## Your `app.html` file must contain:
@@ -36,7 +36,7 @@
 @import url('../res/icons-white.css');
 ```
 
-========
+----
 
 # Beginning
 
