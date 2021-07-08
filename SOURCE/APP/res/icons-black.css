@@ -1,0 +1,1161 @@
+[icon-table],[icon-holder]
+{
+display:table;
+}
+
+[icon]
+{
+color:rgba(0,0,0,0);
+background-repeat:no-repeat;
+display:table-cell;
+background-color:#fff;
+padding:2px;
+width:12px;
+height:12px;
+}
+
+[icon*="mink"],[icon*="logo"]
+{
+background:url('mink-blue.png');
+background-size:contain;
+}
+
+[icon*="mink-white"],[icon*="logo-white"]
+{
+background:url('mink-white.png');
+background-size:contain;
+}
+
+[icon*="mink-orange"],[icon*="logo-orange"]
+{
+background:url('mink-orange.png');
+background-size:contain;
+}
+
+[icon*="mink-black"],[icon*="logo-black"]
+{
+background:url('mink-black.png');
+background-size:contain;
+}
+
+[icon*="mink-purple"],[icon*="logo-purple"]
+{
+background:url('mink-purple.png');
+background-size:contain;
+}
+
+[icon*="martini"],[icon*="drink"],[icon*="0"]
+{
+/*Martini*/
+left:0px;
+background:url('icons-black.png') 0px 0px;
+}
+
+[icon*="music"],[icon*="1"]
+{
+/*Music*/
+left:23px;
+background:url('icons-black.png') -23px 0px;
+}
+
+[icon*="search"],[icon*="2"]
+{
+/*Search*/
+left:47px;
+background:url('icons-black.png') -47px 0px;
+}
+
+[icon*="e-mail"],[icon*="3"]
+{
+/*e-mail*/
+left:71px;
+background:url('icons-black.png') -71px 0px;
+}
+
+[icon*="heart"],[icon*="4"]
+{
+/*Heart*/
+left:95px;
+background:url('icons-black.png') -95px 0px;
+}
+
+[icon*="star-active"],[icon*="5"]
+{
+/*Active Star*/
+left:119px;
+background:url('icons-black.png') -119px 0px;
+}
+
+[icon*="star-inactive"],[icon*="6"]
+{
+/*Inactive Star*/
+left:143px;
+background:url('icons-black.png') -143px 0px;
+}
+
+[icon*="person"],[icon*="7"]
+{
+/*Person*/
+left:167px;
+background:url('icons-black.png') -167px 0px;
+}
+
+[icon*="film"],[icon*="8"]
+{
+/*Video*/
+left:191px;
+background:url('icons-black.png') -191px 0px;
+}
+
+[icon*="box-2x2"],[icon*="9"]
+{
+/*2x2 box*/
+left:215px;
+background:url('icons-black.png') -215px 0px;
+}
+
+[icon*="box-3x3"],[icon*="10"]
+{
+/*3x3 box*/
+left:239px;
+background:url('icons-black.png') -239px 0px;
+}
+
+[icon*="list"],[icon*="11"]
+{
+/*List*/
+left:263px;
+background:url('icons-black.png') -263px 0px;
+}
+
+[icon*="true"],[icon*="12"]
+{
+/*Confirm*/
+left:288px;
+background:url('icons-black.png') -288px 0px;
+}
+
+[icon*="false"],[icon*="13"]
+{
+/*Deny*/
+left:311px;
+background:url('icons-black.png') -311px 0px;
+}
+
+[icon*="zoom-in"],[icon*="14"]
+{
+/*Zoom-in*/
+left:335px;
+background:url('icons-black.png') -335px 0px;
+}
+
+[icon*="zoom-out"],[icon*="15"]
+{
+/*Zoom-out*/
+left:359px;
+background:url('icons-black.png') -359px 0px;
+}
+
+[icon*="power"],[icon*="power-button"],[icon*="16"]
+{
+/*Power*/
+left:383px;
+background:url('icons-black.png') -383px 0px;
+}
+
+[icon*="signal"],[icon*="signal-bar"],[icon*="17"]
+{
+/*Signal bar*/
+left:407px;
+background:url('icons-black.png') -407px 0px;
+}
+
+[icon*="settings"],[icon*="gear"],[icon*="18"]
+{
+/*Settings*/
+left:431px;
+background:url('icons-black.png') -431px 0px;
+}
+
+[icon*="trash"],[icon*="delete"],[icon*="19"]
+{
+/*Trash*/
+left:454px;
+background:url('icons-black.png') -454px 0px;
+}
+
+/*--------------------------*/
+
+[icon*="home"],[icon*="20"]
+{
+/*Home*/
+left:0px;
+bottom:23px;
+background:url('icons-black.png') 0px -23px;
+}
+
+[icon*="page"],[icon*="folded-page"],[icon*="21"]
+{
+/*Page*/
+left:23px;
+bottom:23px;
+background:url('icons-black.png') -23px -23px;
+}
+
+[icon*="clock"],[icon*="22"]
+{
+/*Clock*/
+left:47px;
+bottom:23px;
+background:url('icons-black.png') -47px -23px;
+}
+
+[icon*="road"],[icon*="23"]
+{
+/*Road*/
+left:71px;
+bottom:23px;
+background:url('icons-black.png') -71px -23px;
+}
+
+[icon*="save"],[icon*="24"]
+{
+/*Download*/
+left:95px;
+bottom:23px;
+background:url('icons-black.png') -95px -23px;
+}
+
+[icon*="download-encircled"],[icon*="25"]
+{
+/*Download*/
+left:119px;
+bottom:23px;
+background:url('icons-black.png') -119px -23px;
+}
+
+[icon*="upload-encircled"],[icon*="26"]
+{
+/*Upload*/
+left:143px;
+bottom:23px;
+background:url('icons-black.png') -143px -23px;
+}
+
+[icon*="bin"],[icon*="27"]
+{
+/*Bin*/
+left:167px;
+bottom:23px;
+background:url('icons-black.png') -167px -23px;
+}
+[icon*="triangle-encircled"],[icon*="28"]
+{
+/*Play*/
+left:191px;
+bottom:23px;
+background:url('icons-black.png') -191px -23px;
+}
+
+[icon*="redo"],[icon*="29"]
+{
+/*Redo*/
+left:215px;
+bottom:23px;
+background:url('icons-black.png') -215px -23px;
+}
+
+[icon*="refresh"],[icon*="30"]
+{
+/*Refresh*/
+left:239px;
+bottom:23px;
+background:url('icons-black.png') -239px -23px;
+}
+
+[icon*="list"],[icon*="31"]
+{
+/*List*/
+left:263px;
+bottom:23px;
+background:url('icons-black.png') -263px -23px;
+}
+
+[icon*="pad-lock"],[icon*="32"]
+{
+/*Lock*/
+left:288px;
+bottom:23px;
+background:url('icons-black.png') -288px -23px;
+}
+
+[icon*="flag"],[icon*="33"]
+{
+/*Flag*/
+left:311px;
+bottom:23px;
+background:url('icons-black.png') -311px -23px;
+}
+
+[icon*="headphones"],[icon*="listen"],[icon*="34"]
+{
+/*Headphones*/
+left:335px;
+bottom:23px;
+background:url('icons-black.png') -335px -23px;
+}
+
+[icon*="mute"],[icon*="35"]
+{
+/*Mute*/
+left:359px;
+bottom:23px;
+background:url('icons-black.png') -359px -23px;
+}
+
+[icon*="volume-down"],[icon*="36"]
+{
+/*Volume down*/
+left:383px;
+bottom:23px;
+background:url('icons-black.png') -383px -23px;
+}
+
+[icon*="volume-up"],[icon*="37"]
+{
+/*Volume up*/
+left:407px;
+bottom:23px;
+background:url('icons-black.png') -407px -23px;
+}
+
+[icon*="QR"],[icon*="38"]
+{
+/*qr*/
+left:431px;
+bottom:23px;
+background:url('icons-black.png') -431px -23px;
+}
+
+[icon*="barcode"],[icon*="39"]
+{
+/*barcode*/
+left:454px;
+bottom:23px;
+background:url('icons-black.png') -454px -23px;
+}
+
+/*--------------------------*/
+
+[icon*="single-tag"],[icon*="40"]
+{
+/*tag*/
+left:0px;
+bottom:47px;
+background:url('icons-black.png') 0px -47px;
+}
+
+[icon*="double-tag"],[icon*="41"]
+{
+/*tag over tag*/
+left:23px;
+bottom:47px;
+background:url('icons-black.png') -23px -47px;
+}
+
+[icon*="book"],[icon*="42"]
+{
+/*book*/
+left:47px;
+bottom:47px;
+background:url('icons-black.png') -47px -47px;
+}
+
+[icon*="book-mark"],[icon*="bookmark"],[icon*="43"]
+{
+/*bookmark*/
+left:71px;
+bottom:47px;
+background:url('icons-black.png') -71px -47px;
+}
+
+[icon*="print"],[icon*="44"]
+{
+/*printer*/
+left:95px;
+bottom:47px;
+background:url('icons-black.png') -95px -47px;
+}
+
+[icon*="camera"],[icon*="45"]
+{
+/*camera*/
+left:119px;
+bottom:47px;
+background:url('icons-black.png') -119px -47px;
+}
+
+[icon*="text"],[icon*="alpha"],[icon*="46"]
+{
+/*A*/
+left:143px;
+bottom:47px;
+background:url('icons-black.png') -143px -47px;
+}
+
+[icon*="bold"],[icon*="bolded"],[icon*="47"]
+{
+/*B*/
+left:167px;
+bottom:47px;
+background:url('icons-black.png') -167px -47px;
+}
+
+[icon*="italics"],[icon*="italicized"],[icon*="48"]
+{
+/*I*/
+left:191px;
+bottom:47px;
+background:url('icons-black.png') -191px -47px;
+}
+
+[icon*="font-size"],[icon*="font-height"],[icon*="49"]
+{
+/*height*/
+left:215px;
+bottom:47px;
+background:url('icons-black.png') -215px -47px;
+}
+
+[icon*="font-width"],[icon*="50"]
+{
+/*widtg*/
+left:239px;
+bottom:47px;
+background:url('icons-black.png') -239px -47px;
+}
+
+[icon*="align-left"],[icon*="51"]
+{
+/*align left*/
+left:263px;
+bottom:47px;
+background:url('icons-black.png') -263px -47px;
+}
+
+[icon*="align-center"],[icon*="52"]
+{
+/*align to center*/
+left:288px;
+bottom:47px;
+background:url('icons-black.png') -288px -47px;
+}
+
+[icon*="align-right"],[icon*="53"]
+{
+/*align right*/
+left:311px;
+bottom:47px;
+background:url('icons-black.png') -311px -47px;
+}
+
+[icon*="align-none"],[icon*="54"]
+{
+/*no align*/
+left:335px;
+bottom:47px;
+background:url('icons-black.png') -335px -47px;
+}
+
+[icon*="form"],[icon*="55"]
+{
+/*list*/
+left:359px;
+bottom:47px;
+background:url('icons-black.png') -359px -47px;
+}
+
+[icon*="margin-right"],[icon*="56"]
+{
+/*push margin right*/
+left:383px;
+bottom:47px;
+background:url('icons-black.png') -383px -47px;
+}
+
+[icon*="margin-left"],[icon*="57"]
+{
+/*push margin left*/
+left:407px;
+bottom:47px;
+background:url('icons-black.png') -407px -47px;
+}
+
+[icon*="video"],[icon*="58"]
+{
+/*video*/
+left:431px;
+bottom:47px;
+background:url('icons-black.png') -431px -47px;
+}
+
+[icon*="gallery"],[icon*="59"]
+{
+/*gallery*/
+left:454px;
+bottom:47px;
+background:url('icons-black.png') -454px -47px;
+}
+
+/*--------------------------*/
+
+[icon*="edit"],[icon*="60"]
+{
+/*pencil*/
+left:0px;
+bottom:71px;
+background:url('icons-black.png') 0px -71px;
+}
+
+[icon*="location"],[icon*="61"]
+{
+/*loction*/
+left:23px;
+bottom:71px;
+background:url('icons-black.png') -23px -71px;
+}
+
+[icon*="contrast"],[icon*="half-circle"],[icon*="62"]
+{
+/*contrast*/
+left:47px;
+bottom:71px;
+background:url('icons-black.png') -47px -71px;
+}
+
+[icon*="saturation"],[icon*="drop"],[icon*="63"]
+{
+/*drop*/
+left:71px;
+bottom:71px;
+background:url('icons-black.png') -71px -71px;
+}
+
+[icon*="pencil-boxed"],[icon*="64"]
+{
+/*boxed in pencil*/
+left:95px;
+bottom:71px;
+background:url('icons-black.png') -95px -71px;
+}
+
+[icon*="export"],[icon*="arr-boxed"],[icon*="65"]
+{
+/*export*/
+left:119px;
+bottom:71px;
+background:url('icons-black.png') -119px -71px;
+}
+
+[icon*="confirm"],[icon*="66"]
+{
+/*[✔]*/
+left:143px;
+bottom:71px;
+background:url('icons-black.png') -143px -71px;
+}
+
+[icon*="pan"],[icon*="compass"],[icon*="67"]
+{
+/*pan*/
+left:167px;
+bottom:71px;
+background:url('icons-black.png') -167px -71px;
+}
+
+[icon*="skip-back-track"],[icon*="bar-arr"],[icon*="68"]
+{
+/*∣◀*/
+left:191px;
+bottom:71px;
+background:url('icons-black.png') -191px -71px;
+}
+
+[icon*="skip-back"],[icon*="bar-double-arr"],[icon*="69"]
+{
+/*∣◀◀*/
+left:215px;
+bottom:71px;
+background:url('icons-black.png') -215px -71px;
+}
+
+[icon*="seek-back"],[icon*="70"]
+{
+/*◀◀*/
+left:239px;
+bottom:71px;
+background:url('icons-black.png') -239px -71px;
+}
+
+[icon*="play"],[icon*="71"]
+{
+/*▶*/
+left:263px;
+bottom:71px;
+background:url('icons-black.png') -263px -71px;
+}
+
+[icon*="pause"],[icon*="72"]
+{
+/*∣∣*/
+left:288px;
+bottom:71px;
+background:url('icons-black.png') -288px -71px;
+}
+
+[icon*="stop"],[icon*="73"]
+{
+/*∷*/
+left:311px;
+bottom:71px;
+background:url('icons-black.png') -311px -71px;
+}
+
+[icon*="seek-forward"],[icon*="74"]
+{
+/*▶▶*/
+left:335px;
+bottom:71px;
+background:url('icons-black.png') -335px -71px;
+}
+
+[icon*="skip-forward"],[icon*="75"]
+{
+/*▶∣*/
+left:359px;
+bottom:71px;
+background:url('icons-black.png') -359px -71px;
+}
+
+[icon*="skip-track-forward"],[icon*="76"]
+{
+/*▶∣*/
+left:383px;
+bottom:71px;
+background:url('icons-black.png') -383px -71px;
+}
+
+[icon*="eject"],[icon*="77"]
+{
+/*eject*/
+left:407px;
+bottom:71px;
+background:url('icons-black.png') -407px -71px;
+}
+
+[icon*="scroll-left"],[icon*="78"]
+{
+/*left*/
+left:431px;
+bottom:71px;
+background:url('icons-black.png') -431px -71px;
+}
+
+[icon*="scroll-right"],[icon*="79"]
+{
+/*right*/
+left:454px;
+bottom:71px;
+background:url('icons-black.png') -454px -71px;
+}
+
+/*--------------------------*/
+
+[icon*="append"],[icon*="80"]
+{
+/*add on*/
+left:0px;
+bottom:95px;
+background:url('icons-black.png') 0px -95px;
+}
+
+[icon*="remove"],[icon*="81"]
+{
+/*remove*/
+left:23px;
+bottom:95px;
+background:url('icons-black.png') -23px -95px;
+}
+
+[icon*="stop"],[icon*="82"]
+{
+/*cancek*/
+left:47px;
+bottom:95px;
+background:url('icons-black.png') -47px -95px;
+}
+
+[icon*="sure"],[icon*="83"]
+{
+/*ok*/
+left:71px;
+bottom:95px;
+background:url('icons-black.png') -71px -95px;
+}
+
+[icon*="help"],[icon*="84"]
+{
+/*(?)*/
+left:95px;
+bottom:95px;
+background:url('icons-black.png') -95px -95px;
+}
+
+[icon*="info"],[icon*="85"]
+{
+/*(i)*/
+left:119px;
+bottom:95px;
+background:url('icons-black.png') -119px -95px;
+}
+
+[icon*="pin-point"],[icon*="86"]
+{
+/*pinpoint*/
+left:143px;
+bottom:95px;
+background:url('icons-black.png') -143px -95px;
+}
+
+[icon*="deny"],[icon*="87"]
+{
+/*x ✘*/
+left:167px;
+bottom:95px;
+background:url('icons-black.png') -167px -95px;
+}
+
+[icon*="accept"],[icon*="88"]
+{
+/*check ✔*/
+left:191px;
+bottom:95px;
+background:url('icons-black.png') -191px -95px;
+}
+
+[icon*="cancel-encircled"],[icon*="89"]
+{
+/*cancel*/
+left:215px;
+bottom:95px;
+background:url('icons-black.png') -215px -95px;
+}
+
+[icon*="left-arr"],[icon*="90"]
+{
+/*right*/
+left:239px;
+bottom:95px;
+background:url('icons-black.png') -239px -95px;
+}
+
+[icon*="right-arr"],[icon*="91"]
+{
+/*left*/
+left:263px;
+bottom:95px;
+background:url('icons-black.png') -263px -95px;
+}
+
+[icon*="up-arr"],[icon*="92"]
+{
+/*up*/
+left:288px;
+bottom:95px;
+background:url('icons-black.png') -288px -95px;
+}
+
+[icon*="down-arr"],[icon*="93"]
+{
+/*down*/
+left:311px;
+bottom:95px;
+background:url('icons-black.png') -311px -95px;
+}
+
+[icon*="flash"],[icon*="94"]
+{
+/*arrow over*/
+left:335px;
+bottom:95px;
+background:url('icons-black.png') -335px -95px;
+}
+
+
+
+[icon*="size-up-diagonally"],[icon*="95"]
+{
+/*size*/
+left:359px;
+bottom:95px;
+background:url('icons-black.png') -359px -95px;
+}
+
+[icon*="size-down-diagonally"],[icon*="96"]
+{
+/*size*/
+left:383px;
+bottom:95px;
+background:url('icons-black.png') -383px -95px;
+}
+
+[icon*="add"],[icon*="97"]
+{
+/*add*/
+left:407px;
+bottom:95px;
+background:url('icons-black.png') -407px -95px;
+}
+
+[icon*="subract"],[icon*="sub"],[icon*="98"]
+{
+/*subtract*/
+left:431px;
+bottom:95px;
+background:url('icons-black.png') -431px -95px;
+}
+
+[icon*="multiply"],[icon*="mul"],[icon*="asterisk"],[icon*="99"]
+{
+/*multiply*/
+left:454px;
+bottom:95px;
+background:url('icons-black.png') -454px -95px;
+}
+
+/*--------------------------*/
+
+[icon*="error"],[icon*="alert"],[icon*="100"]
+{
+/*error*/
+left:0px;
+bottom:119px;
+background:url('icons-black.png') -0px -119px;
+}
+
+[icon*="gift"],[icon*="present"],[icon*="101"]
+{
+/*gift*/
+left:23px;
+bottom:119px;
+background:url('icons-black.png') -23px -119px;
+}
+
+[icon*="leaf"],[icon*="eco"],[icon*="102"]
+{
+/*leaf*/
+left:47px;
+bottom:119px;
+background:url('icons-black.png') -47px -119px;
+}
+
+[icon*="fire"],[icon*="103"]
+{
+/*fire*/
+left:71px;
+bottom:119px;
+background:url('icons-black.png') -71px -119px;
+}
+
+[icon*="viewable"],[icon*="eye"],[icon*="104"]
+{
+/*view*/
+left:95px;
+bottom:119px;
+background:url('icons-black.png') -95px -119px;
+}
+
+[icon*="hidden"],[icon*="private"],[icon*="105"]
+{
+/*hidden*/
+left:119px;
+bottom:119px;
+background:url('icons-black.png') -119px -119px;
+}
+
+[icon*="important"],[icon*="notice"],[icon*="106"]
+{
+/*/!\*/
+left:143px;
+bottom:119px;
+background:url('icons-black.png') -143px -119px;
+}
+
+[icon*="airplane"],[icon*="107"]
+{
+/*airplane*/
+left:167px;
+bottom:119px;
+background:url('icons-black.png') -167px -119px;
+}
+
+[icon*="calendar"],[icon*="plan"],[icon*="108"]
+{
+/*calendar*/
+left:191px;
+bottom:119px;
+background:url('icons-black.png') -191px -119px;
+}
+
+[icon*="shuffle"],[icon*="intertwined-arr"],[icon*="109"]
+{
+/*shuffle*/
+left:215px;
+bottom:119px;
+background:url('icons-black.png') -215px -119px;
+}
+
+[icon*="chat"],[icon*="message-box"],[icon*="110"]
+{
+/*chat*/
+left:239px;
+bottom:119px;
+background:url('icons-black.png') -239px -119px;
+}
+
+[icon*="magnet"],[icon*="u-magnet"],[icon*="111"]
+{
+/*magnet*/
+left:263px;
+bottom:119px;
+background:url('icons-black.png') -268px -119px;
+}
+
+[icon*="scroll-up"],[icon*="112"]
+{
+/*up*/
+left:288px;
+bottom:119px;
+background:url('icons-black.png') -288px -119px;
+}
+
+[icon*="scroll-down"],[icon*="113"]
+{
+/*down*/
+left:311px;
+bottom:119px;
+background:url('icons-black.png') -311px -119px;
+}
+
+[icon*="repeat"],[icon*="repeat-boxed"],[icon*="114"]
+{
+/*repeat*/
+left:335px;
+bottom:119px;
+background:url('icons-black.png') -335px -119px;
+}
+
+[icon*="shop"],[icon*="cart"],[icon*="store"],[icon*="115"]
+{
+/*cart*/
+left:359px;
+bottom:119px;
+background:url('icons-black.png') -359px -119px;
+}
+
+[icon*="folder-closed"],[icon*="116"]
+{
+/*folder*/
+left:383px;
+bottom:119px;
+background:url('icons-black.png') -383px -119px;
+}
+
+[icon*="folder-open"],[icon*="117"]
+{
+/*folder*/
+left:407px;
+bottom:119px;
+background:url('icons-black.png') -407px -119px;
+}
+
+[icon*="size-up-vertical"],[icon*="118"]
+{
+/*size*/
+left:431px;
+bottom:119px;
+background:url('icons-black.png') -431px -119px;
+}
+
+[icon*="size-up-horizontal"],[icon*="119"]
+{
+/*size*/
+left:454px;
+bottom:119px;
+background:url('icons-black.png') -454px -119px;
+}
+
+/*--------------------------*/
+
+[icon*="memory"],[icon*="120"]
+{
+/**/
+left:0px;
+bottom:143px;
+background:url('icons-black.png') 0px -143px;
+}
+
+[icon*="megaphone"],[icon*="121"]
+{
+/*megaphone*/
+left:23px;
+bottom:143px;
+background:url('icons-black.png') -23px -143px;
+}
+
+[icon*="alarm"],[icon*="122"]
+{
+/*alarm*/
+left:47px;
+bottom:143px;
+background:url('icons-black.png') -47px -143px;
+}
+
+[icon*="brighten"],[icon*="sun"],[icon*="123"]
+{
+/*brighten*/
+left:71px;
+bottom:143px;
+background:url('icons-black.png') -71px -143px;
+}
+
+[icon*="like"],[icon*="thumbs-up"],[icon*="124"]
+{
+/*like*/
+left:95px;
+bottom:143px;
+background:url('icons-black.png') -95px -143px;
+}
+
+[icon*="dislike"],[icon*="thumbs-down"],[icon*="125"]
+{
+/*dislike*/
+left:119px;
+bottom:143px;
+background:url('icons-black.png') -119px -143px;
+}
+
+[icon*="point-right"],[icon*="126"]
+{
+/*right*/
+left:143px;
+bottom:143px;
+background:url('icons-black.png') -143px -143px;
+}
+
+[icon*="point-left"],[icon*="127"]
+{
+/*left*/
+left:167px;
+bottom:143px;
+background:url('icons-black.png') -167px -143px;
+}
+
+[icon*="point-up"],[icon*="128"]
+{
+/*up*/
+left:191px;
+bottom:143px;
+background:url('icons-black.png') -191px -143px;
+}
+
+[icon*="point-down"],[icon*="129"]
+{
+/*down*/
+left:215px;
+bottom:143px;
+background:url('icons-black.png') -215px -143px;
+}
+
+[icon*="right-arr-encircled"],[icon*="130"]
+{
+/*right*/
+left:239px;
+bottom:143px;
+background:url('icons-black.png') -239px -143px;
+}
+
+[icon*="left-arr-encircled"],[icon*="131"]
+{
+/*left*/
+left:263px;
+bottom:143px;
+background:url('icons-black.png') -263px -143px;
+}
+
+[icon*="up-arr-encircled"],[icon*="132"]
+{
+/*up*/
+left:288px;
+bottom:143px;
+background:url('icons-black.png') -288px -143px;
+}
+
+[icon*="down-arr-encircled"],[icon*="133"]
+{
+/*down*/
+left:311px;
+bottom:143px;
+background:url('icons-black.png') -311px -143px;
+}
+
+[icon*="globe"],[icon*="world"],[icon*="web"],[icon*="134"]
+{
+/*globe*/
+left:335px;
+bottom:143px;
+background:url('icons-black.png') -335px -143px;
+}
+
+[icon*="wrench"],[icon*="135"]
+{
+/*wrench*/
+left:359px;
+bottom:143px;
+background:url('icons-black.png') -359px -143px;
+}
+
+[icon*="stats"],[icon*="136"]
+{
+/*stats*/
+left:383px;
+bottom:143px;
+background:url('icons-black.png') -383px -143px;
+}
+
+[icon*="funnel"],[icon*="137"]
+{
+/*funnel*/
+left:407px;
+bottom:143px;
+background:url('icons-black.png') -407px -143px;
+}
+
+[icon*="briefcase"],[icon*="case"],[icon*="138"]
+{
+/*case*/
+left:431px;
+bottom:143px;
+background:url('icons-black.png') -431px -143px;
+}
+
+[icon*="crop"],[icon*="139"]
+{
+/*crop*/
+left:454px;
+bottom:143px;
+background:url('icons-black.png') -454px -143px;
+}
+
+
+/* END of icons-black.RGB */

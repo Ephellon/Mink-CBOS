@@ -1,57 +1,81 @@
-Mink-CBOS
-=========
+# Mink CBOS (_Custom Browser Operating System_): HTML5/CSS3/JS OS
 
-HTML5/CSS3/JS OS
+> Developers, scroll past __Usage § IV__
 
-Mink - Custom Browser OS:
-Developers, scroll past -Usage- § IV
--Author: Ephellon Dantzler
--Contact: 469-202-5129 ; minkcbos@gmail.com
--Support: JavaScript, HTML5, CSS3
--Aliases:
-	-JS : Mink : INK
-	-HTML5 : Muffin Stack : MINK
-	-CSS3 : Rose Garden Basic : RGB
+- Author:  Ephellon Dantzler
+- Contact: [minkcbos@gmail.com](mailto:minkcbos@gmail.com)
+- Support: JavaScript, HTML5, CSS3
+- Aliases:
+	+ HTML5: Muffin Stack (MINK)
+	+ JS: Mink (INK)
+	+ CSS3: Rose Garden Basic (RGB)
+	
+----
 
--Guidelines/Instructions:
+# Guidelines/Instructions:
+## Your `app.html` file must contain:
 
--Beginning-
+```html
+<link rel="stylesheet" type="text/css" href="app.css"/>
+<script type="text/javascript" src="../res/jquery.js"></script>
+<script type="text/javascript" src="../res/mink.js"></script>
+```
 
-I. You must have a browser that supports HTML5, JS, and CSS3.
+## Your `mof/{Application Name}.html` file(s) must contain:
 
-II. When you click on ' mink.html, ' open the file as a web page (and choose your browser as default program/application for the action)
+```html
+<link rel="stylesheet" type="text/css" href="../app.css"/>
+<script type="text/javascript" src="../../res/jquery.js"></script>
+<script type="text/javascript" src="../../res/mink.js"></script>
+```
 
--Startup-
+## Your `app.css` file must contain:
 
-I. Open SOURCE directory.
-II. Select mink.html as a web page.
-III. Use the page as if it were an emulator (phone of its' own)
+```css
+@import url('../res/mink.css');
+@import url('../res/icons-white.css');
+```
 
--Usage-
+----
 
-I. Open mink.html
+# Beginning
 
-II. Click on an 'app' to execute/run it.
+1. You must have a browser that supports HTML5, JS, and CSS3.
+2. When you click on `mink.html`, open the file as a web page (and choose your browser as the default program/application for the action)
 
-III. Press the ' Master Button, ' located at the bottom of the page to return to the previous screen, or exit the app, respectively.
+----
 
-IV. Hold the ' Master Button, ' located at the bottom of the page to close all 'apps.'
+# Startup
 
--DEVELOPERS-
+1. Open the `/SOURCE` directory.
+2. Select `mink.html` as a web page.
+3. Use the page as if it were an emulator (phone of its' own).
 
-I. Building apps.
-	i. Body of apps : use HTML ver. 5
-	ii. Behavior of apps : use JS
-	iii. Styling apps : use CSS ver. 3
+----
 
-II. Data manipulation
-	i. Saving
-	ii. Loading
-	iii. Deleting
-	iv. Merging/Concating
+# Usage
 
-III. Sharing content
-	i. App-App
-	ii. App-Web
-	iii. Web-App
+1. Open `mink.html`
+2. Click on an application to execute it.
+3. Press the "Master Button" located at the bottom of the page to return to the previous screen, or exit the app, respectively.
+4. Hold the "Master Button" located at the bottom of the page to close all applications.
 
+----
+
+# DEVELOPERS
+
+- Building apps
+	1. Body of apps: use HTML5
+	2. Behavior of apps: use JS
+	3. Styling apps: use CSS 3
+
+- Data manipulation
+	1. Saving
+	2. Loading
+	3. Deleting
+	4. Merging/Concating
+
+- Sharing content
+	1. App to App
+	2. App to Web
+	3. Web to App
